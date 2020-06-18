@@ -1,1 +1,1 @@
-# vendr-payment-provider-bukaroo
+# vendr-payment-provider-buckaroo
