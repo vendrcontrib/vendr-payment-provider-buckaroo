@@ -64,7 +64,7 @@ namespace Vendr.Contrib.PaymentProviders.Buckaroo
 
             var data = new TransactionBase
             {
-                AmountDebit = order.TotalPrice.Value.WithTax,
+                AmountDebit = order.TransactionAmount.Value,
                 Currency = currencyCode,
                 Description = order.OrderNumber,
                 Invoice = order.OrderNumber,
